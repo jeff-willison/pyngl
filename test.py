@@ -1,7 +1,3 @@
-import Ngl,Nio
-import numpy as np
+import fib3
 
-str_array = ["Hamburg","Munich"]
-
-for city in str_array:
-  print(city)
+print(fib3.fib(8))
